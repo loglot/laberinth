@@ -1,0 +1,61 @@
+{
+    "files.associations": {
+        "*.bdl": "json", // bunny den level
+        "*.bdm": "json", // bunny den map
+        "*.bdff": "json" // bunny den font face
+    },
+
+
+    "chat.disableAIFeatures": true, // count of manually changing this back to true  : 7
+                           // count of manually changing that previous line to false : 0
+                                      // these lines are made to line up, if they don't,
+                                   // that means that vscode decided to add ai yet again
+                                            // well, except for that line, it's too long
+                             //actually, i decided to split that line to make it line up
+
+
+    "liveServer.settings.port": 5535,
+    "workbench.colorCustomizations": {
+        "[Abyss]": {
+            "activityBar.background": "#151030",
+            "statusBar.background": "#151030",
+            "sideBar.background": "#110d1a",
+            "sideBarSectionHeader.background": "#110d1a",
+            "sideBarTitle.background": "#110d1a",
+            "statusBarItem.prominentBackground": "#151030",
+            "statusBarItem.prominentForeground": "#151030",
+            "statusBarItem.remoteBackground": "#151030",
+            "statusBarItem.remoteForeground": "#575782",
+            "editor.background": "#0c0c14",
+            "editorGutter.background":"#050407",
+            "editorGutter.addedBackground":"#023102",
+            "editorGutter.modifiedBackground":"#02312d",
+            "editorGutter.deletedBackground":"#681243",
+            "minimap.background":"#050407",
+            "minimap.selectionHighlight":"#3629636d",
+            "editor.selectionBackground":"#292238",
+            "editor.lineHighlightBackground":"#050407",
+            "editorIndentGuide.background1":"#0c0c14",
+            "editorIndentGuide.activeBackground1":"#2b1b4a",
+            "tab.unfocusedActiveBackground": "#fff",
+            "editorGroupHeader.tabsBackground": "#07070c",
+            "editorGroupHeader.tabsBorder": "#ff000000",
+            "editorGroupHeader.border": "#ff000000",
+            "tab.inactiveBackground": "#07070c",
+            "tab.border": "#07070c00",
+            "button.background": "#362963",
+            "badge.background": "#322369",
+            "activityBarBadge.background":"#322369",
+            "selection.background": "#362963",
+            "titleBar.activeBackground": "#151030",
+            "scmGraph.foreground1":"#ba58ff",
+            "scmGraph.foreground2":"#ba58ff",
+            "scmGraph.foreground3":"#ba58ff",
+            "scmGraph.foreground4":"#ba58ff",
+            "scmGraph.foreground5":"#ba58ff",
+            
+            
+        }
+    }
+    
+}

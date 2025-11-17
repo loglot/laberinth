@@ -1,0 +1,15 @@
+{
+    "arrows":["arrow.png"],
+
+    "woodBackgrounds":["wbg.png"],
+    "woodForegrounds":["empty.png"],
+    "woodDoorsLeft":["wdoorl.png"],
+    "woodDoorsCenter":["wdoorc.png"],
+    "woodDoorsRight":["wdoorr.png"],
+
+    "stoneBackgrounds":["sbg.png"],
+    "stoneForegrounds":["empty.png"],
+    "stoneDoorsLeft":["sdoorl.png"],
+    "stoneDoorsCenter":["sdoorc.png"],
+    "stoneDoorsRight":["sdoorr.png"]
+}
