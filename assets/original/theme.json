@@ -1,15 +1,51 @@
 {
-    "arrows":["arrow.png"],
+    "misc":{
+        "tree":["empty.png"],
+        "window":["empty.png"],
+        "numbers":{
+            "one":["empty.png"],
+            "two":["empty.png"],
+            "three":["empty.png"],
+            "four":["empty.png"],
+            "wood":{
+                "two":["empty.png"]
+            },
+            "sky":{
+                "one":["empty.png"]
+            }
+        }
+    },
 
-    "woodBackgrounds":["wbg.png"],
-    "woodForegrounds":["empty.png"],
-    "woodDoorsLeft":["wdoorl.png"],
-    "woodDoorsCenter":["wdoorc.png"],
-    "woodDoorsRight":["wdoorr.png"],
+    "environments":{
+        "wood":{
+            "background":["wbg.png"]
+        },
+        "stone":{
+            "background":["sbg.png"]
+        },
+        "outside":{
+            "background":["empty.png"]
+        }
+    },
 
-    "stoneBackgrounds":["sbg.png"],
-    "stoneForegrounds":["empty.png"],
-    "stoneDoorsLeft":["sdoorl.png"],
-    "stoneDoorsCenter":["sdoorc.png"],
-    "stoneDoorsRight":["sdoorr.png"]
+    "doors":{
+        "wood":{
+            "left":["wdoorl.png"],
+            "center":["wdoorc.png"],
+            "right":["wdoorr.png"]
+        },
+        "stone":{
+            "left":["sdoorl.png"],
+            "center":["sdoorc.png"],
+            "right":["sdoorr.png"]
+        },
+        "air":{
+            "center":["empty.png"]
+        },
+        "arrow":{
+            "back":["arrow.png"]
+        }
+    }
+
+
 }
