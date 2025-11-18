@@ -1,20 +1,16 @@
 {
     "files.associations": {
-        "*.bdl": "json", // bunny den level
-        "*.bdm": "json", // bunny den map
-        "*.bdff": "json" // bunny den font face
+        // "*.bdl": "json", // bunny den level
+        // "*.bdm": "json", // bunny den map
+        // "*.bdff": "json" // bunny den font face
     },
 
 
-    "chat.disableAIFeatures": true, // count of manually changing this back to true  : 7
-                           // count of manually changing that previous line to false : 0
-                                      // these lines are made to line up, if they don't,
-                                   // that means that vscode decided to add ai yet again
-                                            // well, except for that line, it's too long
-                             //actually, i decided to split that line to make it line up
+    "chat.disableAIFeatures": true, // count of manually changing this back to true  : i'm not doing this bit
+                           // count of manually changing that previous line to false : on multiple codebases
 
 
-    "liveServer.settings.port": 5535,
+    "liveServer.settings.port": 5536,
     "workbench.colorCustomizations": {
         "[Abyss]": {
             "activityBar.background": "#151030",
