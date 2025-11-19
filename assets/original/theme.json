@@ -27,6 +27,11 @@
             "background":["empty.png"]
         }
     },
+    "cursor":{
+        "active":["cursor-active.png"],
+        "inactive":["cursor-inactive.png"]
+        
+    },
 
     "doors":{
         "wood":{

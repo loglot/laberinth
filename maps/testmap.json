@@ -1,5 +1,6 @@
 {
     "empty":false,
+    "start":2,
     "rooms":[
         {
             "index":{
@@ -9,32 +10,59 @@
             "background":"%theme%.environments.wood.background",
             "doors":[
                 {
-                    "x":0,
-                    "y":0,
-                    "w":100,
-                    "h":200,
-                    "asset":"%theme%.doors.wood.center",
+                    "x":500,
+                    "y":710,
+                    "w":150,
+                    "h":150,
+                    "asset":"%theme%.doors.arrow.back",
                     "location":1
                 }
-            ]
+            ],
+            "theme":"original/"
         },
         {
             "index":{
                 "background":true,
                 "doors":true
             },
-            "background":"%theme%.environments.wood.background",
+            "background":"%theme%.environments.stone.background",
             "doors":[
                 {
-                    "x":100,
-                    "y":0,
-                    "w":100,
-                    "h":200,
+                    "x":800,
+                    "y":410,
+                    "w":150,
+                    "h":300,
                     "asset":"%theme%.doors.wood.center",
                     "location":0
+                },
+                {
+                    "x":1290,
+                    "y":510,
+                    "w":150,
+                    "h":300,
+                    "asset":"%theme%.doors.stone.right",
+                    "location":2
                 }
-            ]
+            ],
+            "theme":"original/"
+        },
+        {
+            "index":{
+                "background":true,
+                "doors":true
+            },
+            "background":"%theme%.environments.stone.background",
+            "doors":[
+                {
+                    "x":150,
+                    "y":510,
+                    "w":150,
+                    "h":300,
+                    "asset":"%theme%.doors.stone.left",
+                    "location":-1
+                }
+            ],
+            "theme":"original/"
         }
-    ],
-    "theme":"original/"
+    ]
 }
