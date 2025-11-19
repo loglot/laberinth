@@ -1,6 +1,7 @@
 {
     "empty":false,
-    "start":2,
+    "start":0,
+    "door":"basedoor.json",
     "rooms":[
         {
             "index":{
@@ -10,10 +11,7 @@
             "background":"%theme%.environments.wood.background",
             "doors":[
                 {
-                    "x":500,
-                    "y":710,
-                    "w":150,
-                    "h":150,
+                    "x":1050, "y":710, "w":150, "h":150,
                     "asset":"%theme%.doors.arrow.back",
                     "location":1
                 }
@@ -28,18 +26,12 @@
             "background":"%theme%.environments.stone.background",
             "doors":[
                 {
-                    "x":800,
-                    "y":410,
-                    "w":150,
-                    "h":300,
+                    "x":900, "y":310, "w":200, "h":400,
                     "asset":"%theme%.doors.wood.center",
                     "location":0
                 },
                 {
-                    "x":1290,
-                    "y":510,
-                    "w":150,
-                    "h":300,
+                    "x":1240, "y":250, "w":300, "h":600,
                     "asset":"%theme%.doors.stone.right",
                     "location":2
                 }
@@ -53,14 +45,32 @@
             },
             "background":"%theme%.environments.stone.background",
             "doors":[
-                {
-                    "x":150,
-                    "y":510,
-                    "w":150,
-                    "h":300,
-                    "asset":"%theme%.doors.stone.left",
-                    "location":-1
-                }
+                {"asset":"%theme%.doors.stone.left","location":1, "position":0},
+                {"asset":"%theme%.doors.stone.center","location":-1, "position":1},
+                {"asset":"%theme%.doors.stone.center","location":-1, "position":2},
+                {"asset":"%theme%.doors.stone.right","location":3, "position":3},
+                {"asset":"%theme%.doors.arrow.back","location":-1, "position":4},
+                {"asset":"%theme%.doors.arrow.back","location":-1, "position":5},
+                {"asset":"%theme%.doors.stone.down","location":-1, "position":6},
+                {"asset":"%theme%.doors.stone.up", "location":-1, "position":7}
+            ],
+            "theme":"original/"
+        },
+        {
+            "index":{
+                "background":true,
+                "doors":true
+            },
+            "background":"%theme%.environments.wood.background",
+            "doors":[
+                {"asset":"%theme%.doors.wood.left","location":2, "position":0},
+                {"asset":"%theme%.doors.wood.center","location":-1, "position":1},
+                {"asset":"%theme%.doors.wood.center","location":-1, "position":2},
+                {"asset":"%theme%.doors.wood.right","location":-1, "position":3},
+                {"asset":"%theme%.doors.arrow.back","location":-1, "position":4},
+                {"asset":"%theme%.doors.arrow.back","location":-1, "position":5},
+                {"asset":"%theme%.doors.wood.down","location":-1, "position":6},
+                {"asset":"%theme%.doors.wood.up", "location":-1, "position":7}
             ],
             "theme":"original/"
         }

@@ -1,18 +1,12 @@
 {
     "misc":{
         "tree":["empty.png"],
-        "window":["empty.png"],
+        "window":["win.png"],
         "numbers":{
             "one":["empty.png"],
             "two":["empty.png"],
             "three":["empty.png"],
-            "four":["empty.png"],
-            "wood":{
-                "two":["empty.png"]
-            },
-            "sky":{
-                "one":["empty.png"]
-            }
+            "four":["empty.png"]
         }
     },
 
@@ -24,7 +18,7 @@
             "background":["sbg.png"]
         },
         "outside":{
-            "background":["empty.png"]
+            "background":["obg.png"]
         }
     },
     "cursor":{
@@ -37,15 +31,19 @@
         "wood":{
             "left":["wdoorl.png"],
             "center":["wdoorc.png"],
-            "right":["wdoorr.png"]
+            "right":["wdoorr.png"],
+            "up":["wtdooru.png"],
+            "down":["wtdoord.png"]
         },
         "stone":{
             "left":["sdoorl.png"],
             "center":["sdoorc.png"],
-            "right":["sdoorr.png"]
+            "right":["sdoorr.png"],
+            "up":["stdooru.png"],
+            "down":["stdoord.png"]
         },
         "air":{
-            "center":["empty.png"]
+            "center":["cdoorc.png"]
         },
         "arrow":{
             "back":["arrow.png"]
