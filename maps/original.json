@@ -47,7 +47,7 @@
             "background":"%theme%.environments.outside.background",
             "doors":[
                 {"asset":"%theme%.doors.arrow.back","location":0, "x":200, "y":710, "w":150, "h":150},
-                {"asset":"%theme%.doors.air.center","location":0, "x":900, "y":462, "w":100, "h":200}
+                {"asset":"%theme%.doors.air.center","location":10, "x":900, "y":462, "w":100, "h":200}
             ],
             "theme":"original/"
         },
@@ -122,6 +122,72 @@
             "misc":[
                 {"asset":"%theme%.misc.window","x":400, "y":200, "w":350, "h":300}
             ],
+            "theme":"original/"
+        },
+        {
+            "index":{ 
+                "background":true,
+                "doors":true,
+                "puzzle":true,
+                "buttons":true,
+                "shapes":true,
+                "misc":true,
+                "indicators":true
+            },
+            "background":"%theme%.environments.stone.background",
+            "doors":[
+                {"asset":"%theme%.doors.arrow.back","location":3, "position":4}
+                
+            ],
+            "misc":[
+                {"asset":"%theme%.doors.stone.right", "x":825, "y":310, "w":200, "h":400},
+                {"asset":"%theme%.doors.stone.left", "x":580, "y":310, "w":200, "h":400},
+                {"asset":"%theme%.doors.stone.center", "position":3, "x":795, "y":310, "w":200, "h":400,"flip":true},
+                {"asset":"%theme%.doors.stone.center", "position":3, "x":605, "y":310, "w":200, "h":400}
+            ],
+            "shapes":{
+                "rect":[
+                    {"x":608, "y":315, "w":385, "h":385, "color":"#000000"}
+                ]
+            },
+            "indicators":[
+                {"x":545,"y":250,"w":40,"h":40, "inactive":"#000000", "active":"#0000ff", "correct":"#00ff00", "incorrect":"#ff0000"},
+                {"x":1020,"y":250,"w":40,"h":40, "inactive":"#000000", "active":"#0000ff", "correct":"#00ff00", "incorrect":"#ff0000"}
+            ],
+            "buttons":[
+                {
+                    "asset":"%theme%.misc.numbers.one","x":450, "y":350, "w":100, "h":100,
+                    "index":{"puzzle":true},
+                    "puzzle":{"index":{"add":true},"add":"1"}
+                },
+                {
+                    "asset":"%theme%.misc.numbers.three","x":450, "y":500, "w":100, "h":100,
+                    "index":{"puzzle":true},
+                    "puzzle":{"index":{"add":true},"add":"3"}
+                },
+                {
+                    "asset":"%theme%.misc.numbers.two","x":1050, "y":350, "w":100, "h":100,
+                    "index":{"puzzle":true},
+                    "puzzle":{"index":{"add":true},"add":"1"}
+                },
+                {
+                    "asset":"%theme%.misc.numbers.four","x":1050, "y":500, "w":100, "h":100,
+                    "index":{"puzzle":true},
+                    "puzzle":{"index":{"add":true},"add":"3"}
+                }
+            ],
+            "puzzle":{
+                "index":{
+                    "remove": true,
+                    "add": true
+                },
+                "solution":"34",
+                "remove":[["misc",2,3]],
+                "add":[["doors",
+                    {"asset":"%theme%.empty","location":-1, "x":605, "y":310, "w":400, "h":400}
+                ]]
+
+            },
             "theme":"original/"
         }
     ]

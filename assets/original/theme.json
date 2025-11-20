@@ -3,10 +3,10 @@
         "tree":["empty.png"],
         "window":["win.png"],
         "numbers":{
-            "one":["empty.png"],
-            "two":["empty.png"],
-            "three":["empty.png"],
-            "four":["empty.png"]
+            "one":["numone.png"],
+            "two":["numtwo.png"],
+            "three":["numthree.png"],
+            "four":["numfour.png"]
         }
     },
 
@@ -48,7 +48,8 @@
         "arrow":{
             "back":["arrow.png"]
         }
-    }
+    },
+    "empty":["empty.png"]
 
 
 }
