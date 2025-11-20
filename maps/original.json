@@ -1,7 +1,7 @@
 {
     "empty":false,
     "start":0,
-    "door":"basedoor.json",
+    "door":"doorPos/base.json",
     "rooms":[
         {
             "index":{
@@ -136,7 +136,7 @@
             },
             "background":"%theme%.environments.stone.background",
             "doors":[
-                {"asset":"%theme%.doors.arrow.back","location":3, "position":4}
+                {"asset":"%theme%.doors.arrow.back","location":3, "x":200, "y":710, "w":150, "h":150}
                 
             ],
             "misc":[

@@ -1,7 +1,7 @@
 {
     "empty":false,
     "start":0,
-    "door":"basedoor.json",
+    "door":"doorPos/base.json",
     "rooms":[
         {
             "index":{

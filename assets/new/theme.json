@@ -1,12 +1,6 @@
 {
     "misc":{
-        "window":["win.png"],
-        "numbers":{
-            "one":["numone.png"],
-            "two":["numtwo.png"],
-            "three":["numthree.png"],
-            "four":["numfour.png"]
-        }
+        "tree":["empty.png"]
     },
 
     "environments":{
@@ -21,8 +15,8 @@
         }
     },
     "cursor":{
-        "active":["cursor-active.png"],
-        "inactive":["cursor-inactive.png"]
+        "active":["empty.png"],
+        "inactive":["empty.png"]
         
     },
 

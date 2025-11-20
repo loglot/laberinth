@@ -10,7 +10,7 @@
                            // count of manually changing that previous line to false : on multiple codebases
 
 
-    "liveServer.settings.port": 5542,
+    "liveServer.settings.port": 5543,
     "workbench.colorCustomizations": {
         "[Abyss]": {
             "activityBar.background": "#151030",
