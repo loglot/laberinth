@@ -168,12 +168,12 @@
                 {
                     "asset":"%theme%.misc.numbers.two","x":1050, "y":350, "w":100, "h":100,
                     "index":{"puzzle":true},
-                    "puzzle":{"index":{"add":true},"add":"1"}
+                    "puzzle":{"index":{"add":true},"add":"2"}
                 },
                 {
                     "asset":"%theme%.misc.numbers.four","x":1050, "y":500, "w":100, "h":100,
                     "index":{"puzzle":true},
-                    "puzzle":{"index":{"add":true},"add":"3"}
+                    "puzzle":{"index":{"add":true},"add":"4"}
                 }
             ],
             "puzzle":{
@@ -182,11 +182,30 @@
                     "add": true
                 },
                 "solution":"34",
-                "remove":[["misc",2,3]],
+                "input":"",
+                "correct":null,
+                "remove":[["misc",2,2]],
                 "add":[["doors",
-                    {"asset":"%theme%.empty","location":-1, "x":605, "y":310, "w":400, "h":400}
+                    {"asset":"%theme%.empty","location":11, "x":605, "y":310, "w":400, "h":400}
                 ]]
 
+            },
+            "theme":"original/"
+        },
+        {
+            "index":{ 
+                "background":true,
+                "doors":true,
+                "shapes":true
+            },
+            "background":"%theme%.environments.outside.background",
+            "doors":[
+                {"asset":"%theme%.doors.arrow.back","location":10, "x":200, "y":710, "w":150, "h":150}
+            ],
+            "shapes":{
+                "rect":[
+                    {"x":0, "y":0, "w":585, "h":385, "color":"#a4c2f4"}
+                ]
             },
             "theme":"original/"
         }
