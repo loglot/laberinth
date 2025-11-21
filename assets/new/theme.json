@@ -1,45 +1,48 @@
 {
     "misc":{
-        "tree":["tree1.png"]
+        "tree":["misc/tree1.png"]
     },
 
     "environments":{
         "wood":{
-            "background":["wbg.png"]
+            "background":["environments/wbg1.png"],
+            "foreground":{
+                "floor":["environments/wfg1.png"]
+            }
         },
         "stone":{
-            "background":["sbg.png"]
+            "background":["environments/sbg.png"]
         },
         "outside":{
-            "background":["obg.png"]
+            "background":["environments/obg.png"]
         }
     },
     "cursor":{
-        "active":["empty.png"],
-        "inactive":["empty.png"]
+        "active":["cursors/actcur.png"],
+        "inactive":["cursors/incur.png"]
         
     },
 
     "doors":{
         "wood":{
-            "left":["wdoorl.png"],
-            "center":["wdoorc.png"],
-            "right":["wdoorr.png"],
-            "up":["wtdooru.png"],
-            "down":["wtdoord.png"]
+            "left":["doors/wdoorl.png"],
+            "center":["doors/wdoorc1.png"],
+            "right":["doors/wdoorr.png"],
+            "up":["doors/wtdooru.png"],
+            "down":["doors/wtdoord.png"]
         },
         "stone":{
-            "left":["sdoorl.png"],
-            "center":["sdoorc.png"],
-            "right":["sdoorr.png"],
-            "up":["stdooru.png"],
-            "down":["stdoord.png"]
+            "left":["doors/sdoorl.png"],
+            "center":["doors/sdoorc.png"],
+            "right":["doors/sdoorr.png"],
+            "up":["doors/stdooru.png"],
+            "down":["doors/stdoord.png"]
         },
         "air":{
-            "center":["cdoorc.png"]
+            "center":["doors/cdoorc.png"]
         },
         "arrow":{
-            "back":["arrow.png"]
+            "back":["doors/arrow.png"]
         }
     },
     "empty":["empty.png"]
