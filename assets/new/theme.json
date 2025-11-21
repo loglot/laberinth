@@ -5,9 +5,9 @@
 
     "environments":{
         "wood":{
-            "background":["environments/wbg1.png"],
+            "background":["environments/wbg1.png","environments/wbg2.png","environments/wbg3.png"],
             "foreground":{
-                "floor":["environments/wfg1.png"]
+                "floor":["environments/wfg1.png","environments/wfg2.png","environments/wfg3.png"]
             }
         },
         "stone":{
@@ -25,8 +25,8 @@
 
     "doors":{
         "wood":{
-            "left":["doors/wdoorl.png"],
-            "center":["doors/wdoorc1.png"],
+            "left":["doors/wdoorl1.png"],
+            "center":["doors/wdoorc1.png","doors/wdoorc2.png","doors/wdoorc3.png","doors/wdoorc4.png"],
             "right":["doors/wdoorr.png"],
             "up":["doors/wtdooru.png"],
             "down":["doors/wtdoord.png"]
@@ -42,7 +42,7 @@
             "center":["doors/cdoorc.png"]
         },
         "arrow":{
-            "back":["doors/arrow.png"]
+            "back":["empty.png"]
         }
     },
     "empty":["empty.png"]

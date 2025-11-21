@@ -22,16 +22,14 @@
             "index":{
                 "background":true,
                 "doors":true,
-                "misc":true
+                "foreground":true
             },
             "background":"%theme%.environments.wood.background",
             "doors":[
-                {"asset":"%theme%.doors.wood.center","location":-1,"x":430, "y":260, "w":300, "h":600},
-                {"asset":"%theme%.doors.wood.center","location":0,"x":830, "y":260, "w":300, "h":600}
+                {"asset":"%theme%.doors.wood.center","location":-1,"x":430, "y":260, "w":300, "h":500},
+                {"asset":"%theme%.doors.wood.center","location":0,"x":830, "y":260, "w":300, "h":500}
             ],
-            "misc":[
-                {"asset":"%theme%.environments.wood.foreground.floor","x":0, "y":0, "w":1600, "h":900}
-            ],
+            "foreground":"%theme%.environments.wood.foreground.floor",
             "theme":"new/"
         }
     ]

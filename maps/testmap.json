@@ -1,6 +1,6 @@
 {
     "empty":false,
-    "start":0,
+    "start":4,
     "door":"doorPos/base.json",
     "rooms":[
         {
@@ -66,7 +66,7 @@
                 {"asset":"%theme%.doors.wood.left","location":2, "position":0},
                 {"asset":"%theme%.doors.wood.center","location":-1, "position":1},
                 {"asset":"%theme%.doors.wood.center","location":-1, "position":2},
-                {"asset":"%theme%.doors.wood.right","location":-1, "position":3},
+                {"asset":"%theme%.doors.wood.right","location":6, "position":3},
                 {"asset":"%theme%.doors.arrow.back","location":4, "position":4},
                 {"asset":"%theme%.doors.arrow.back","location":-1, "position":5},
                 {"asset":"%theme%.doors.wood.down","location":-1, "position":6},
@@ -78,16 +78,14 @@
             "index":{
                 "background":true,
                 "doors":true,
-                "misc":true
+                "foreground":true
             },
             "background":"%theme%.environments.wood.background",
             "doors":[
-                {"asset":"%theme%.doors.wood.center","location":3,"x":430, "y":260, "w":300, "h":600},
-                {"asset":"%theme%.doors.wood.center","location":5,"x":830, "y":260, "w":300, "h":600}
+                {"asset":"%theme%.doors.wood.center","location":3,"x":430, "y":260, "w":300, "h":500},
+                {"asset":"%theme%.doors.wood.center","location":5,"x":830, "y":260, "w":300, "h":500}
             ],
-            "misc":[
-                {"asset":"%theme%.environments.wood.foreground.floor","x":0, "y":0, "w":1600, "h":900}
-            ],
+            "foreground":"%theme%.environments.wood.foreground.floor",
             "theme":"new/"
         },
         {
@@ -101,6 +99,34 @@
                 {"asset":"%theme%.doors.wood.center","location":4,"position":1}
             ],
             "theme":"original/"
+        },
+        {
+            "index":{
+                "background":true,
+                "doors":true
+            },
+            "background":"%theme%.environments.outside.background",
+            "doors":[
+                {"asset":"%theme%.doors.arrow.back","location":3,"x":200, "y":710, "w":150, "h":150},
+                {"asset":"%theme%.doors.arrow.back","location":7,"x":1000, "y":710, "w":150, "h":150}
+            ],
+            "theme":"original/"
+        },
+        {
+            "index":{
+                "background":true,
+                "doors":true,
+                "misc":true
+            },
+            "background":"%theme%.environments.outside.background",
+            "doors":[
+                {"asset":"%theme%.doors.arrow.back","location":3,"x":200, "y":710, "w":150, "h":150},
+                {"asset":"%theme%.doors.arrow.back","location":6,"x":1000, "y":710, "w":150, "h":150}
+            ],
+            "misc":[
+                {"asset":"%theme%.misc.tree","x":300, "y":130, "w":400, "h":550}
+            ],
+            "theme":"new/"
         }
     ]
 }
